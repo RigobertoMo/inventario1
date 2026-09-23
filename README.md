@@ -1,24 +1,21 @@
-# INTEGANTE
+# Integrante
 
-Francisco rigobeto morales maldonado
+Francisco Rigoberto Morales Maldonado
 
-Este programa permite registrar productos dentro de una base de datos, mediante un formulario y consultar los datos ingresados de registros guardados.
+Aplicación web para dar de alta productos en una base de datos desde un formulario y consultar después los registros almacenados.
 
+# Tecnologías
 
-# Las tecnologias utilizadas:
-        
-    IDE Visual Studio Code, html, css, php, MariaDB, servidor local(xammp o laragon) y un navegador.
+Visual Studio Code, HTML, CSS, PHP, MariaDB, servidor local (XAMPP o Laragon) y un navegador.
 
+# Cómo ejecutar el proyecto
 
-# Para la ejecución de este proyecto necesitamos:
+1. Instala un paquete que levante un servidor local y un gestor de bases de datos (XAMPP o Laragon).
 
-    1.- Descargar un paquete de software(PS) que permita crear un servidor local y que tenga un gestor de base de datos, por ejemplo: Xampp o laragon.
+2. Extrae el ZIP en la carpeta de proyectos del paquete (`htdocs` en XAMPP, `www` en Laragon).
 
-    2.- Descomprimir el archivo zip dentro de la carpeta del PS dónde se guardan los proyectos(en Xampp es la carpeta htdocs, laragon la carpeta www).
+3. Revisa las credenciales en `config/conexion.php` para conectarte a la base de datos.
 
-    3.- En el archivo config/conexion.php revisar las credenciales para poder crear la base de datos.
+4. Crea una base de datos e importa el archivo `base_datos.sql`.
 
-    4.- Crear una base de datos e importar en ella el archivo base_datos.sql
-
-    5.- iniciar o reiniciar el servidor local(en Xampp se da dandole a start en apache ) y accediendo al navegador con la url http://localhost/inventario/
-
+5. Arranca el servidor (en XAMPP: Start en Apache) y abre en el navegador: `http://localhost/inventario/`
